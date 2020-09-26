@@ -31,13 +31,27 @@
 }
 /* changes made by Bobbi and Brad for the comment section component */
 .commentSectionContainer {
-	background-color: black;
+	background-color: white;
 }
 
 .commentList {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.card {
+	background-color: #5637dd;
+	opacity: .8;
+}
+
+.formText {
+	font-size: 0.8em !important;
+}
+
+.inputBox {
+	padding: 0.7em;
+	font-size: 0.7em;
+	height: 0.8em;
+}
 /* changes made by Bobbi and Brad for the comment section component */
 @keyframes App-logo-spin {
 	from {
@@ -48,9 +62,8 @@
 	}
 }
 
- #rightSide {
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
-  display: flex;
-  align-items: center;
-  
+#rightSide {
+	background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+	display: flex;
+	align-items: center;
 }

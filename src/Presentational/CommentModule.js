@@ -7,6 +7,9 @@ export const CommentModule = ({ name, message }) => {
 			<Card>
 				<CardBody>
 					<CardText>{message}</CardText>
+					<CardText>
+						<small className='text-white'>{name}</small>
+					</CardText>
 				</CardBody>
 			</Card>
 		</React.Fragment>
