@@ -47,3 +47,10 @@
 		transform: rotate(360deg);
 	}
 }
+
+ #rightSide {
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  display: flex;
+  align-items: center;
+  
+}

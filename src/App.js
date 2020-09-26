@@ -20,7 +20,7 @@ function App() {
 					>
 						<CommentSection />
 					</Col>
-					<Col>
+					<Col id='rightSide'>
 						<GetWellModule />
 					</Col>
 				</Row>
